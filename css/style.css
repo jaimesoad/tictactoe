@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0c0c0c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    background: white;
+
+    height: 42rem;
+    aspect-ratio: 1;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3px;
+}
+
+.cell {
+    height: 14rem;
+    aspect-ratio: 1;
+    background: #0c0c0c;
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    height: 10rem;
+    width: 10rem;
+    fill: white;
+}
